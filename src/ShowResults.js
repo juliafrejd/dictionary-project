@@ -7,7 +7,7 @@ export default function ShowResults(props) {
     return (
       <div className="ShowResults">
         <h2>{props.showResults.word}</h2>
-        <h5>/{props.showResults.phonetic}/</h5>
+        <p>/{props.showResults.phonetic}/</p>
 
         {props.showResults.meanings.map(function (meaning, index) {
           return (

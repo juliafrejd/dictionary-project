@@ -3,10 +3,7 @@
   margin: 0 auto;
   padding: 50px;
 }
-.Dictionary h1,
-.Dictionary p {
-  text-align: center;
-}
+
 .Dictionary form {
   text-align: center;
   margin: 40px 0;

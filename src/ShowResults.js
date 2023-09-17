@@ -1,5 +1,6 @@
 import React from "react";
 import "./ShowResults.css";
+import Meaning from "./Meaning";
 
 export default function ShowResults(props) {
   if (props.showResults) {
@@ -9,7 +10,11 @@ export default function ShowResults(props) {
         <h5>/{props.showResults.phonetic}/</h5>
 
         {props.showResults.meanings.map(function (meaning, index) {
-          return meaning.definition[0];
+          return (
+            <div key={index}>
+              <Meaning meaning={meaning} />
+            </div>
+          );
         })}
       </div>
     );

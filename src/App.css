@@ -1,8 +1,5 @@
-.App-header {
+.App-footer {
   text-align: center;
-}
-.App-logo {
-  max-width: 100px;
-  display: block;
-  margin: 0 auto;
+  font-size: 12px;
+  margin: 20px 0;
 }

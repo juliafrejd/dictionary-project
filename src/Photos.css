@@ -1,3 +1,4 @@
 .Photos img {
-  padding: 12px;
+  padding: 12px 0;
+  border-radius: 5px;
 }

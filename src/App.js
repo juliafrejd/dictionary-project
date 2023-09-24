@@ -11,7 +11,13 @@ function App() {
         </main>
         <footer className="App-footer">
           Open-sourced code{" "}
-          <a href="https://github.com/juliafrejd/dictionary-project">GitHub</a>{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/juliafrejd/dictionary-project"
+          >
+            GitHub
+          </a>{" "}
           by Julia Frejd
         </footer>
       </div>

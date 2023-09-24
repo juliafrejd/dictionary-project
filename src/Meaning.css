@@ -1,3 +1,9 @@
-.Meaning {
-  margin-top: 30px;
+.Meaning h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.Meaning p,
+.Meaning em {
+  margin: 0;
 }

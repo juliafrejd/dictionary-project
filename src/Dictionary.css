@@ -1,10 +1,18 @@
-.Dictionary {
-  max-width: 700px;
-  margin: 0 auto;
+.Dictionary section {
+  background-color: white;
+  border-radius: 8px;
+  margin: 20px 0;
   padding: 50px;
+  box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 9px 0px;
 }
-
-.Dictionary form {
-  text-align: center;
-  margin: 40px 0;
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  color: #333;
+  border: 1px solid #ddd;
+}
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+  color: #333;
 }

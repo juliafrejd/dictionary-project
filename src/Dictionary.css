@@ -13,7 +13,10 @@
   border: 1px solid #ddd;
 }
 .Dictionary h1 {
+  font-size: 14px;
   font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.7;
 }
 .Dictionary .hint {
   font-size: 11px;

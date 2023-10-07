@@ -24,7 +24,7 @@ export default function Dictionary(props) {
 
     let pexelsApiKey =
       "pUZluKWIBZVkIIgGqooaooiGQvnzit7ySLT53Iky8lbMoeMs9E6VqVjd";
-    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
+    let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=3`;
     let headers = { Authorization: `${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
@@ -44,7 +44,6 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <h1 className="text-center mt-4 mb-5">📖 English Dictionary</h1>
         <section>
           <h4 className="mb-3">
             <strong>What word would you like to look up?</strong>
@@ -54,8 +53,8 @@ export default function Dictionary(props) {
           </form>
           <div className="hint">suggested words: sunset, wine, yoga</div>
         </section>
-        <Results results={results} />
         <Photos photos={photos} />
+        <Results results={results} />
       </div>
     );
   } else {
